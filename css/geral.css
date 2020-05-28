@@ -5,21 +5,20 @@ header{
     position: relative;
     z-index: 2;
 }
-
 header .container{
     position: relative;
 }
 
 header .header-black{
+    
     background-color:black;
     height: 40px;    
 }
  
 header .header-black li{
-    background-image: url("img/clubs.png");
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     display: inline-block;
-    margin: 5px;
+    margin: 4px;
 }
 
 header .header-black li.club-01{
@@ -46,23 +45,18 @@ header .header-black li.club-07{
 header .header-black li.club-08{
     background-position: -334px 0px;
 }
-
 header .header-black li.club-09{
     background-position: -381px 0px;
 }
-
 header .header-black li.club-10{
     background-position: -429px 0px;
 }
-
 header .header-black li.club-11{
     background-position: -478px 0px;
 }
-
 header .header-black li.club-12{
     background-position: -527px 0px;
 }
-
 header .header-black li.club-13{
     background-position: -579px 0px;
 }
@@ -74,6 +68,24 @@ header .header-black li.club-15{
 }
 header .header-black li.club-16{
     background-position: -719px 0px;
+}
+header .header-black li.club-17{
+    background-position: -763px 0px;
+}
+header .header-black li.club-18{
+    background-position: -808px 0px;
+}
+header .header-black li.club-19{
+    background-position: -853px 0px;
+}
+header .header-black li.club-20{
+    background-position: -900px 0px;
+}
+header .header-black li.club-21{
+    background-position: -950px 0px;
+}
+header .header-black li.club-22{
+    background-position: -1000px 0px;
 }
 
 header #logotipo{
