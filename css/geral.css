@@ -3,11 +3,16 @@
     src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
     font-size: 1em;
 }
+@font-face {
+    font-family:"OpenSans-Light";
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
     
 header{
     width: 100%;
     height: 150px;
-    background-color: rgba(135, 18, 202, 0.8);
+    background-color: gray;
     position: relative;
     z-index: 2;
 }
@@ -117,8 +122,8 @@ header .header-black li a{
 }
 
 #menu li.search input{
-    background-color: #5C2D90;
-    color: #fff;
+    background-color: gray;
+    color:black;
     border: none;
     height: 30px;
     line-height: 30px;
@@ -126,7 +131,7 @@ header .header-black li a{
 }
 
 #menu li.search ::-webkit-input-placeholder{
-    color: #fff;
+    color: black;
 }
 
 #menu li.search button{
@@ -144,7 +149,7 @@ header .header-black li a{
 }
 
 #menu li a{
-    color: #fff;
+    color: black;
     font-size: 16px;
     padding: 10px 25px;
     font-weight: bold;
@@ -153,3 +158,109 @@ header .header-black li a{
 #menu li.search .input-group{
     top: 8px;
 }
+
+#banner{
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url("./img/banner.jpg") no-repeat;
+    background-position: 0px -100px;
+    top: -130px;
+}
+
+#banner h1{
+    color: #fff;
+    top: 300px;
+    position:relative;
+    font-size: 92px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    font-family: "OpenSans-Light";
+    margin-left: 50px;
+}
+
+#banner h1 small{
+    font-size: 32px;
+    display: block;
+    color: #fff;
+    font-family: "OpenSans";
+    font-weight: bold;    
+}
+
+#news{
+    position: relative;
+    top: -110px;    
+}
+
+#news h2{
+    color: black;
+    font-family: "OpenSans-Light";
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#news hr{
+    border: #FDE192 solid 8px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#news .thumbnails{
+    margin-top: 20px;
+}
+
+#news .thumbnails h3{
+    color: black;
+    font-size: 18px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#news .thumbnails time{
+    color: #A7A7A7;
+    font-size: 18px;
+    font-family: "OpenSans";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
